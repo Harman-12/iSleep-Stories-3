@@ -24,8 +24,6 @@ export default class ReadScreen extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#FFFFFF',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
+    backgroundColor: '#FFFFFF'
+  }
 });
