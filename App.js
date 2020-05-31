@@ -1,10 +1,10 @@
 import React from 'react';
 import {createAppContainer} from 'react-navigation';
-import {createMaterialTopTabNavigator} from 'react-navigation-tabs';
+import {createMaterialBottomTabNavigator} from 'react-navigation-tabs';
 import WriteScreen from './screens/WriteScreen';
 import ReadScreen from './screens/ReadScreen';
 
-export default class App extends React.Component {
+export default class App extends React.Component  {
   render(){
   return (
     
@@ -13,7 +13,7 @@ export default class App extends React.Component {
   }
 }
 
-const TabNavigator = createMaterialTopTabNavigator({
+const TabNavigator = createMaterialBottomTabNavigator({
   WriteStory: {screen: WriteScreen},
   ReadStory: {screen: ReadScreen},
 });
