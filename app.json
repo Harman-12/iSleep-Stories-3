@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "iBedTime_Stories",
-    "slug": "iBedTime_Stories",
+    "name": "iSleep Stories",
+    "slug": "BedTime_Stories",
     "platforms": [
       "ios",
       "android",
@@ -9,7 +9,7 @@
     ],
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/app-icon.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
