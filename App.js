@@ -1,6 +1,6 @@
 import React from 'react';
 import {createAppContainer} from 'react-navigation';
-import {createMaterialBottomTabNavigator} from 'react-navigation-tabs';
+import {createBottomTabNavigator} from 'react-navigation-tabs';
 import WriteScreen from './screens/WriteScreen';
 import ReadScreen from './screens/ReadScreen';
 
@@ -13,7 +13,7 @@ export default class App extends React.Component  {
   }
 }
 
-const TabNavigator = createMaterialBottomTabNavigator({
+const TabNavigator = createBottomTabNavigator({
   WriteStory: {screen: WriteScreen},
   ReadStory: {screen: ReadScreen},
 });
