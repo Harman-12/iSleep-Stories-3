@@ -4,18 +4,19 @@ import {createMaterialTopTabNavigator} from 'react-navigation-tabs';
 import WriteScreen from './screens/WriteScreen';
 import ReadScreen from './screens/ReadScreen';
 
-export default function App() {
+export default class App extends React.Component {
+  render(){
   return (
     
       <AppContainer />
-    
-  );
+    );
+  }
 }
 
 const TabNavigator = createMaterialTopTabNavigator({
-  WriteStory: WriteScreen,
-  ReadStory: ReadScreen
-})
+  WriteStory: {screen: WriteScreen},
+  ReadStory: {screen: ReadScreen},
+});
 
 const AppContainer = createAppContainer(TabNavigator);
 
