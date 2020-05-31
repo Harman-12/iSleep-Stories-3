@@ -7,9 +7,9 @@ import ReadScreen from './screens/ReadScreen';
 
 export default function App() {
   return (
-    <View style={styles.container}>
+    
       <AppContainer />
-    </View>
+    
   );
 }
 
