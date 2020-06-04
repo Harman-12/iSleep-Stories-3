@@ -5,7 +5,7 @@ import WriteScreen from './screens/WriteScreen';
 import ReadScreen from './screens/ReadScreen';
 
 export default class App extends React.Component  {
-  render(){
+  render() {
   return (
     
       <AppContainer />
