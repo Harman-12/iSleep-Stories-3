@@ -7,13 +7,13 @@ export default class ReadScreen extends React.Component {
         return(
             <View style={styles.container}>
                 <Header 
-                    backgroundColor = {'red'}
-                    leftComponent={{ icon: 'menu', color: '#fff' }}
+                    backgroundColor = {'white'}
+                    leftComponent={{ icon: 'menu', color: 'purple' }}
                     centerComponent = {{
                         text : 'iSleep Stories',
-                        style : { color: 'white', fontSize: 20}
+                        style : { color: 'purple', fontSize: 20}
                     }}
-                    rightComponent={{ icon: 'home', color: '#fff' }}
+                    rightComponent={{ icon: 'home', color: 'purple' }}
                 />
                 <Text>Read a Story</Text>
             </View>
