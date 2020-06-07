@@ -26,7 +26,7 @@ export default class WriteScreen extends React.Component {
                     rightComponent={{ icon: 'home', color: '#fff' }}
                 />
                 <TextInput 
-                    placeholder="  Story Title"
+                    placeholder="Story Title"
                     onChangeText= {(text)=>{
                         this.setState({
                             title: text
@@ -35,7 +35,7 @@ export default class WriteScreen extends React.Component {
                     value={this.state.title}
                     style={styles.title}/>
                 <TextInput
-                    placeholder="  Author"
+                    placeholder="Author"
                     onChangeText= {(text)=>{
                         this.setState({
                             author: text
@@ -44,7 +44,7 @@ export default class WriteScreen extends React.Component {
                     value={this.state.author}
                     style={styles.author} />
                 <TextInput 
-                    placeholder="  Write your story"
+                    placeholder="Write your story"
                     onChangeText= {(text)=>{
                         this.setState({
                             storyText: text
@@ -74,17 +74,20 @@ const styles = StyleSheet.create({
     height: 40,
     borderWidth: 2,
     marginTop: 40,
-    margin: 10
+    margin: 10,
+    paddingLeft: 5
 },
 author: {
     height: 40,
     borderWidth: 2,
-    margin: 10
+    margin: 10,
+    paddingLeft: 5
 },
 storyText: {
     height: 250,
     borderWidth: 2,
-    margin: 10
+    margin: 10,
+    paddingLeft: 5
 },
 submitButton:{
     justifyContent: 'center',
